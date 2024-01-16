@@ -34,7 +34,7 @@ vim.cmd.colorscheme "catppuccin"
 
 local config = require("nvim-treesitter.configs")
 config.setup({
-  ensure_installed = {"lua"},
+  ensure_installed = {"lua", "c", "c_sharp", "cpp"},
   sync_install = false,
   highlight = {enable = true},
   indent = { enable = true},
